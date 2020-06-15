@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/#{_APPLICATIONNAME_CONNECTORFILEPROCESSING_}#" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="CSS.Connector.FileProcessing_InstanceCount" Value="#{_INSTANCECOUNT_CONNECTORFILEPROCESSING_}#"/>
+    <Parameter Name="EnvironmentCert" Value="#{_ENVIRONMENTCERT_}#" />
+    <Parameter Name="AuthorityURL" Value="#{_AUTHORITYURL_}#"/>
+    <Parameter Name="EnvironmentUsername" Value="#{_ENVIRONMENTUSERNAME_}#" />
+    <Parameter Name="EnvironmentPassword" Value="#{_ENVIRONMENTPASSWORD_}#" />
+    <Parameter Name="httpscertthumbprint" Value="#{_HTTPSCERTTHUMBPRINT_}#" />
+    <Parameter Name="apiname" Value="#{_APINAME_}#" />
+    <Parameter Name="apisecret" Value="#{_APISECRET_}#" />
+    <Parameter Name="allowHTTP" Value="#{_FALSE_}#" />
+    <Parameter Name="ConnectorConnectionString" Value="#{_CONNECTIONSTRING_CONNECTOR_}#" />
+  </Parameters>
+</Application>

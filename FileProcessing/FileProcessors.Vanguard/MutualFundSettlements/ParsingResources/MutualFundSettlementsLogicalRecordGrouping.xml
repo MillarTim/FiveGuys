@@ -1,0 +1,12 @@
+﻿<MutualFundSettlements useGroupCaptures="true">
+  <MutualFundSettlement recordGroupName="MutualFundSettlement" alias="1TRANS">
+    <Settlement recordGroupName="Settlement" alias="01000">
+      <Detail recordGroupName="Detail" alias="01070" recordBlockingFactor="1">
+        <Detail02 alias="02" context="Detail~02" />
+      </Detail>
+      <Trailer recordGroupName="Trailer" alias="01071" recordBlockingFactor="1">
+        <Trailer02 alias="02" context="Trailer~02" />
+      </Trailer>
+    </Settlement>
+  </MutualFundSettlement>
+</MutualFundSettlements>

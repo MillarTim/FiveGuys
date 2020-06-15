@@ -1,0 +1,8 @@
+C:\Users\timm\source\repos\FiveGuys\FileProcessing\FileProcessing.Models\bin\Debug\netstandard2.0\FileProcessing.Models.deps.json
+C:\Users\timm\source\repos\FiveGuys\FileProcessing\FileProcessing.Models\bin\Debug\netstandard2.0\FileProcessing.Models.dll
+C:\Users\timm\source\repos\FiveGuys\FileProcessing\FileProcessing.Models\bin\Debug\netstandard2.0\FileProcessing.Models.pdb
+C:\Users\timm\source\repos\FiveGuys\FileProcessing\FileProcessing.Models\obj\Debug\netstandard2.0\FileProcessing.Models.AssemblyInfoInputs.cache
+C:\Users\timm\source\repos\FiveGuys\FileProcessing\FileProcessing.Models\obj\Debug\netstandard2.0\FileProcessing.Models.AssemblyInfo.cs
+C:\Users\timm\source\repos\FiveGuys\FileProcessing\FileProcessing.Models\obj\Debug\netstandard2.0\FileProcessing.Models.dll
+C:\Users\timm\source\repos\FiveGuys\FileProcessing\FileProcessing.Models\obj\Debug\netstandard2.0\FileProcessing.Models.pdb
+C:\Users\timm\source\repos\FiveGuys\FileProcessing\FileProcessing.Models\obj\Debug\netstandard2.0\FileProcessing.Models.csprojAssemblyReference.cache

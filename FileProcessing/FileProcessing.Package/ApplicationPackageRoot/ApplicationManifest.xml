@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="CSS.Connector.FileProcessing.PackageType" ApplicationTypeVersion="1.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="CSS.Connector.FileProcessing_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
+    <Parameter Name="CSS.Connector.FileProcessing_InstanceCount" DefaultValue="-1" />
+    <Parameter Name="EnvironmentCert" DefaultValue="" />
+    <Parameter Name="EnvironmentUsername" DefaultValue="" />
+    <Parameter Name="EnvironmentPassword" DefaultValue="" />
+    <Parameter Name="AuthorityURL" DefaultValue="" />
+    <Parameter Name="ConnectorConnectionString" DefaultValue="" />
+    <Parameter Name="httpscertthumbprint" DefaultValue="" />
+    <Parameter Name="apiname" DefaultValue="" />
+    <Parameter Name="apisecret" DefaultValue="" />
+    <Parameter Name="allowHTTP" DefaultValue="false" />
+  </Parameters>
+  <!-- Import the ServiceManifest from the ServicePackage. The ServiceManifestName and ServiceManifestVersion 
+       should match the Name and Version attributes of the ServiceManifest element defined in the 
+       ServiceManifest.xml file. -->
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="CSS.Connector.FileProcessingPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides>
+      <ConfigOverride Name="Config">
+        <Settings>
+          <Section Name="FileProcessingConfig">
+            <Parameter Name="AuthorityURL" Value="[AuthorityURL]" />
+            <Parameter Name="httpscertthumbprint" Value="[httpscertthumbprint]" />
+            <Parameter Name="apiname" Value="[apiname]" IsEncrypted="true" />
+            <Parameter Name="apisecret" Value="[apisecret]" IsEncrypted="true" />
+            <Parameter Name="allowHTTP" Value="[allowHTTP]" />
+          </Section>
+          <Section Name="DataSources">
+            <Parameter Name="ConnectorConnectionString" Value="[ConnectorConnectionString]" IsEncrypted="true" />
+          </Section>
+        </Settings>
+      </ConfigOverride>
+    </ConfigOverrides>
+    <EnvironmentOverrides CodePackageRef="code">
+      <EnvironmentVariable Name="ASPNETCORE_ENVIRONMENT" Value="[CSS.Connector.FileProcessing_ASPNETCORE_ENVIRONMENT]" />
+    </EnvironmentOverrides>
+  </ServiceManifestImport>
+  <DefaultServices>
+    <!-- The section below creates instances of service types, when an instance of this 
+         application type is created. You can also create one or more instances of service type using the 
+         ServiceFabric PowerShell module.
+         
+         The attribute ServiceTypeName below must match the name defined in the imported ServiceManifest.xml file. -->
+    <Service Name="CSS.Connector.FileProcessing" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="CSS.Connector.FileProcessingType" InstanceCount="[CSS.Connector.FileProcessing_InstanceCount]">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+  </DefaultServices>
+  <Principals>
+    <Users>
+      <User Name="EnvUser" AccountType="DomainUser" AccountName="[EnvironmentUsername]" Password="[EnvironmentPassword]" PasswordEncrypted="true" />
+    </Users>
+  </Principals>
+  <Policies>
+    <DefaultRunAsPolicy UserRef="EnvUser" />
+    <SecurityAccessPolicies>
+      <SecurityAccessPolicy ResourceRef="MyCert" PrincipalRef="EnvUser" ResourceType="Certificate" />
+    </SecurityAccessPolicies>
+  </Policies>
+  <Certificates>
+    <SecretsCertificate X509FindValue="[EnvironmentCert]" Name="MyCert" />
+  </Certificates>
+</ApplicationManifest>

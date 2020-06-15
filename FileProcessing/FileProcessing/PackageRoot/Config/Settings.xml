@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Section Name="FileProcessingConfig">
+    <Parameter Name="AuthorityURL" Value="" MustOverride="true" />
+    <Parameter Name="httpscertthumbprint" Value=""  MustOverride="true" IsEncrypted="false" />
+    <Parameter Name="apiname" Value=""  MustOverride="true" IsEncrypted="true" />
+    <Parameter Name="apisecret" Value=""  MustOverride="true" IsEncrypted="true" />
+    <Parameter Name="allowHTTP" Value=""  MustOverride="true" IsEncrypted="false" />
+  </Section>
+  <Section Name="DataSources">
+    <Parameter Name="ConnectorConnectionString" Value="" MustOverride="true" IsEncrypted="true" />
+  </Section>
+</Settings>

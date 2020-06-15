@@ -1,0 +1,16 @@
+﻿<MutualFundActivity>
+  <MutualFundActivity recordGroupName="MutualFundActivity" alias="1TRANS">
+    <N00 recordGroupName="Activity">
+      <F5501 recordGroupName="Detail" recordBlockingFactor="1">
+        <F5502 />
+        <F5503 />
+        <F5504 />
+        <F5505 />
+        <F5506 />
+      </F5501>
+      <F5601 recordGroupName="Trailer" recordBlockingFactor="1">
+        <F5602 />
+      </F5601>
+    </N00>
+  </MutualFundActivity>
+</MutualFundActivity>

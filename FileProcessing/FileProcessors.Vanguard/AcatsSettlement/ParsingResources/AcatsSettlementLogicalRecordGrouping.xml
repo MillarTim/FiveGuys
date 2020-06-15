@@ -1,0 +1,13 @@
+﻿<AcatsSettlement>
+  <AcatsSettlement recordGroupName="AcatsSettlement" alias="1TRANS">
+    <H0061 recordGroupName="Settlement">
+      <ST0475 recordGroupName="AcatsSettlementTransferRecord" recordBlockingFactor="1">
+        <SA0535 recordGroupName="OtherAsset" isRepeatingGroup="true" />
+        <SA0620 recordGroupName="OptionAsset" isRepeatingGroup="true" />
+        <SA0650 recordGroupName="MutualFundAsset" isRepeatingGroup="true" />
+        <SA0935 recordGroupName="ForeignAsset" isRepeatingGroup="true" />
+        <SA1813 recordGroupName="InsuranceAsset" isRepeatingGroup="true" />
+      </ST0475>
+    </H0061>
+  </AcatsSettlement>
+</AcatsSettlement>

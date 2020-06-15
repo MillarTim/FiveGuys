@@ -1,0 +1,5 @@
+﻿<UtcTradeCapture useGroupCaptures="true">
+  <UtcTradeCapture recordGroupName="UtcTradeCapture" alias="1TRANS">
+    <Detail recordGroupName="Detail" alias="0||2||4" recordBlockingFactor="1" />
+  </UtcTradeCapture>
+</UtcTradeCapture>
