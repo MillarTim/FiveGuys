@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AcatsSettlement\ParsingResources\AcatsSettlementLogicalRecordGrouping.xml" />
+    <None Remove="BetaReport1\ParsingResources\BetaReport1LogicalRecordGrouping.xml" />
+    <None Remove="BetaReport2\ParsingResources\BetaReport2LogicalRecordGrouping.xml" />
+    <None Remove="CnsProjectionMidday\ParsingResources\CnsProjectionMiddayLogicalRecordGrouping.xml" />
+    <None Remove="CnsProjectionReport\ParsingResources\CnsProjectionReportLogicalRecordGrouping.xml" />
+    <None Remove="DollarTotals\ParsingResources\DollarTotalsLogicalRecordGrouping.xml" />
+    <None Remove="MutualFundActivity\ParsingResources\MutualFundActivityLogicalRecordGrouping.xml" />
+    <None Remove="MutualFundCommissions\ParsingResources\MutualFundCommissionsLogicalRecordGrouping.xml" />
+    <None Remove="MutualFundDividendSettlements\ParsingResources\MutualFundDividendSettlementsLogicalRecordGrouping.xml" />
+    <None Remove="MutualFundSettlements\ParsingResources\MutualFundSettlementLogicalRecordGrouping.xml" />
+    <None Remove="MutualFundSettlements\ParsingResources\MutualFundSettlementsLogicalRecordGrouping.xml" />
+    <None Remove="ReinvestedDividends\ParsingResources\ReinvestedDividendsLogicalRecordGrouping.xml" />
+    <None Remove="SecurityReport\ParsingResources\SecurityReportLogicalRecordGrouping.xml" />
+    <None Remove="SettlementBalances\ParsingResources\DtcNsccSettlementBalancesLogicalRecordGrouping.xml" />
+    <None Remove="SettlementBalances\ParsingResources\SettlementBalancesLogicalRecordGrouping.xml" />
+    <None Remove="Sweep\ParsingResources\SweepLogicalRecordGrouping.xml" />
+    <None Remove="UtcTradeCapture\ParsingResources\UtcTradeCaptureLogicalRecordGrouping.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="AcatsSettlement\ParsingResources\AcatsSettlementLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="BetaReport1\ParsingResources\BetaReport1LogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="BetaReport2\ParsingResources\BetaReport2LogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="CnsProjectionMidday\ParsingResources\CnsProjectionMiddayLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="CnsProjectionReport\ParsingResources\CnsProjectionReportLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="DollarTotals\ParsingResources\DollarTotalsLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="MutualFundActivity\ParsingResources\MutualFundActivityLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="MutualFundCommissions\ParsingResources\MutualFundCommissionsLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="MutualFundDividendSettlements\ParsingResources\MutualFundDividendSettlementsLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="MutualFundSettlements\ParsingResources\MutualFundSettlementsLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="ReinvestedDividends\ParsingResources\ReinvestedDividendsLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="SecurityReport\ParsingResources\SecurityReportLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="Sweep\ParsingResources\SweepLogicalRecordGrouping.xml" />
+    <EmbeddedResource Include="UtcTradeCapture\ParsingResources\UtcTradeCaptureLogicalRecordGrouping.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="SettlementBalances\ParsingResources\SettlementBalancesLogicalRecordGrouping.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileProcessing.Core\FileProcessing.Core.csproj" />
+  </ItemGroup>
+
+</Project>

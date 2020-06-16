@@ -1,0 +1,6 @@
+﻿<Sweep>
+  <Sweep recordGroupName="Sweep" alias="01" recordBlockingFactor="1">
+    <Detail recordGroupName="Detail" alias="09" isRepeatingGroup="true" />
+    <Trailer recordGroupName="Trailer" alias="99" />
+  </Sweep>
+</Sweep>

@@ -1,0 +1,7 @@
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing.Core\obj\Debug\netstandard2.0\FileProcessing.Core.AssemblyInfoInputs.cache
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing.Core\obj\Debug\netstandard2.0\FileProcessing.Core.AssemblyInfo.cs
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing.Core\bin\Debug\netstandard2.0\FileProcessing.Core.deps.json
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing.Core\bin\Debug\netstandard2.0\FileProcessing.Core.dll
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing.Core\bin\Debug\netstandard2.0\FileProcessing.Core.pdb
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing.Core\obj\Debug\netstandard2.0\FileProcessing.Core.dll
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing.Core\obj\Debug\netstandard2.0\FileProcessing.Core.pdb

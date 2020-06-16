@@ -1,0 +1,7 @@
+﻿<ReinvestedDividends>
+  <ReinvestedDividends recordGroupName="ReinvestedDividends" alias="01">
+    <Detail recordGroupName="Detail" alias="05" recordBlockingFactor="1" />
+    <PayableDateSummary recordGroupName="PayableDateSummary" alias="09" recordBlockingFactor="1" />
+    <Trailer recordGroupName="Trailer" alias="99" recordBlockingFactor="1" />
+  </ReinvestedDividends>
+</ReinvestedDividends>

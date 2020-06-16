@@ -1,0 +1,6 @@
+﻿<DollarTotals>
+  <DollarTotals recordGroupName="DollarTotals" alias="01">
+    <Detail recordGroupName="Detail" alias="09" recordBlockingFactor="1" />
+    <Trailer recordGroupName="Trailer" alias="99" recordBlockingFactor="1" />
+  </DollarTotals>
+</DollarTotals>
