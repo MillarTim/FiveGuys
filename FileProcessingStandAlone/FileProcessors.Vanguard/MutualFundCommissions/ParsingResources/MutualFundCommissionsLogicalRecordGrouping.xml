@@ -1,0 +1,14 @@
+﻿<MutualFundCommissions>
+  <MutualFundCommission recordGroupName="MutualFundCommission" alias="1TRANS">
+    <N00 recordGroupName="Commission">
+      <F30 recordGroupName="SecurityHeader">
+        <F311 recordGroupName="Detail" recordBlockingFactor="1">
+          <F312 />
+          <F313 />
+        </F311>
+        <F32 recordGroupName="SecurityTrailer" recordBlockingFactor="1" />
+      </F30>
+      <F33 recordGroupName="GrandTotalTrailer" recordBlockingFactor="1" />
+    </N00>
+  </MutualFundCommission>
+</MutualFundCommissions>

@@ -1,0 +1,8 @@
+﻿<SecurityReport>
+  <SecurityReport recordGroupName="SecurityReport" alias="01">
+    <Bank recordGroupName="Bank" alias="05" recordBlockingFactor="1">
+      <Security recordGroupName="Security" alias="09" isRepeatingGroup="true" />
+    </Bank>
+    <Trailer recordGroupName="Trailer" alias="99" recordBlockingFactor="1" />
+  </SecurityReport>
+</SecurityReport>

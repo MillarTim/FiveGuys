@@ -1,0 +1,8 @@
+﻿<CnsProjectionMidday>
+  <CnsProjectionMidday recordGroupName="CnsProjectionMidday" alias="1TRANS">
+    <H recordGroupName="CnsProjection">
+      <D recordGroupName="Detail" recordBlockingFactor="1" />
+      <T recordGroupName="Trailer" recordBlockingFactor="1" />
+    </H>
+  </CnsProjectionMidday>
+</CnsProjectionMidday>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="N00" xml:space="preserve">
+    <value>^(.{1})(.{2})(?&lt;sequenceNumber&gt;.{1})(.{4})(.{11})(?&lt;transmissionDate&gt;.{8})(?&lt;autorouteFileId&gt;.{8})(.{8})(.{57})</value>
+  </data>
+  <data name="F5601" xml:space="preserve">
+    <value>^(?&lt;fullRecordType&gt;.{5})(.{95})</value>
+  </data>
+  <data name="F5602" xml:space="preserve">
+    <value>^(?&lt;fullRecordType2&gt;.{5})(.{95})</value>
+  </data>
+  <data name="F5503" xml:space="preserve">
+    <value>^(.{1})(.{2})(.{2})(.{4})(.{4})(.{9})(?&lt;withholdingIndicator&gt;.{1})(?&lt;withholdingAmount&gt;.{16})(?&lt;exchangeFee&gt;.{4})(?&lt;salesChargeRate&gt;.{4})(?&lt;commissionCdscAmount&gt;.{16})(?&lt;cashDisbursementIndicator&gt;.{1})(?&lt;buySellIndicator&gt;.{1})(?&lt;tpaInvestmentAgentNumber&gt;.{4})(?&lt;accrualIndicator&gt;.{1})(?&lt;transferDisbursementOptionAccruals&gt;.{1})(?&lt;accrualMoneyAmountAccrualMoneyAccountBalance&gt;.{16})(.{11})(.{2})</value>
+  </data>
+  <data name="F5502" xml:space="preserve">
+    <value>^(.{1})(.{2})(.{2})(.{4})(.{4})(.{9})(?&lt;originalTradeDatePayableDateForDividendAdj&gt;.{8})(?&lt;price&gt;.{12})(?&lt;currencyIndicator&gt;.{3})(?&lt;iraYearOfContributionCode&gt;.{1})(?&lt;crossSecurityIssueNumber&gt;.{9})(?&lt;description&gt;.{29})(?&lt;dividendRate&gt;.{5})(?&lt;agentForFirmNumber&gt;.{4})(?&lt;_529TransferReasonCode&gt;.{1})(?&lt;irs529AnnualStrategyChangeCounter&gt;.{1})(.{3})(.{2})</value>
+  </data>
+  <data name="F5501" xml:space="preserve">
+    <value>^(?&lt;systemCode&gt;.{1})(?&lt;recordType&gt;.{2})(?&lt;sequenceNumber&gt;.{2})(?&lt;clearingSettlingFirmNumber&gt;.{4})(?&lt;clearingSettlingFundNumber&gt;.{4})(?&lt;securityIssueIdNumber&gt;.{9})(?&lt;transactionType&gt;.{2})(?&lt;firmFundidentificationNumber&gt;.{20})(?&lt;effectiveDate&gt;.{8})(?&lt;shareBalanceAmount&gt;.{13})(?&lt;shareBalanceIndicator&gt;.{1})(?&lt;debitCreditIndicator&gt;.{1})(?&lt;dollarAmount&gt;.{16})(?&lt;networkControlIndicator&gt;.{1})(?&lt;dividendCode&gt;.{1})(?&lt;marginAccountIndicator&gt;.{1})(?&lt;combinedTefraNraIndicator&gt;.{1})(?&lt;loadTypeIndicator&gt;.{1})(?&lt;firmFundIdentificationIndicator&gt;.{1})(?&lt;socialCode&gt;.{2})(?&lt;membershipIdentifier&gt;.{2})(?&lt;opposingMembershipIdentifier&gt;.{2})(.{3})(.{2})</value>
+  </data>
+  <data name="F5506" xml:space="preserve">
+    <value>^(.{1})(.{2})(.{2})(.{4})(.{4})(.{9})(?&lt;fatcaWithholdingIndicator&gt;.{1})(?&lt;fatcaWithholdingRate&gt;.{2})(?&lt;fatcaWithholdingAmount&gt;.{16})(?&lt;redemptionFeeRate&gt;.{7})(?&lt;redemptionFeeMoneyAmount&gt;.{16})(?&lt;accountRepresentativeId&gt;.{9})(?&lt;branchIdentificationNumber&gt;.{9})(?&lt;accountOpenDate&gt;.{8})(.{8})(.{2})</value>
+  </data>
+  <data name="F5505" xml:space="preserve">
+    <value>^(.{1})(.{2})(.{2})(.{4})(.{4})(.{9})(?&lt;opposingClearingSettlingFirmNumber&gt;.{4})(?&lt;opposingNetworkControlIndicator&gt;.{1})(?&lt;opposingUnderlyingCustomerAccountNumber&gt;.{20})(?&lt;omnibusAccountIndicator&gt;.{1})(?&lt;costBasisMoneyAmount&gt;.{16})(?&lt;earningsToDateMoneyAmount&gt;.{16})(?&lt;negativeEarningsToDateIndicator&gt;.{1})(?&lt;opposingOriginatingUnderlyingFirmNumber&gt;.{4})(?&lt;originatingUnderlyingFirmNumber&gt;.{4})(.{9})(.{2})</value>
+  </data>
+  <data name="F5504" xml:space="preserve">
+    <value>^(.{1})(.{2})(.{2})(.{4})(.{4})(.{9})(?&lt;originalControlNumber&gt;.{15})(?&lt;controlNumberCorrectionIndicator&gt;.{1})(?&lt;opposingFundAccountNumber&gt;.{20})(?&lt;shareBalanceAmountExtended&gt;.{16})(?&lt;originalControlNumberIndicator&gt;.{1})(?&lt;underlyingCustomerAccountNumber&gt;.{20})(.{3})(.{2})</value>
+  </data>
+  <data name="MutualFundActivity" xml:space="preserve">
+    <value>^(?&lt;headerId&gt;.{6})(?&lt;applicationDate&gt;.{8})(.{2})(?&lt;productNumber&gt;.{3})(?&lt;productDescription&gt;.{20})(.{3})(.{1})(?&lt;multiCycleTransmissionCounter&gt;.{2})(?&lt;possDupeIndicator&gt;.{1})(?&lt;productId&gt;.{8})(?&lt;applicationMultiCycleCounter&gt;.{2})(?&lt;recipientId&gt;.{7})(?&lt;constant1&gt;.{1})(?&lt;recordCount&gt;.{9})(?&lt;senderId&gt;.{4})(?&lt;constant&gt;.{3})(.{1})(?&lt;dateTimeCreated&gt;.{16})(.{3})</value>
+  </data>
+  <data name="RecordType" xml:space="preserve">
+    <value>^1TRANS|^F550[1-6]| ^F560[12]|^N00</value>
+  </data>
+</root>

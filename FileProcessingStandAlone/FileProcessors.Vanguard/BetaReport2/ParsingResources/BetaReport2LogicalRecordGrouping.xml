@@ -1,0 +1,6 @@
+﻿<BetaReport2>
+  <BetaReport2 recordGroupName="BetaReport2" alias="01">
+    <Detail recordGroupName="Detail" alias="09" recordBlockingFactor="1" />
+    <Trailer recordGroupName="Trailer" alias="99" recordBlockingFactor="1" />
+  </BetaReport2>
+</BetaReport2>

@@ -1,0 +1,8 @@
+﻿<MutualFundDividendSettlements>
+  <MutualFundDividendSettlement recordGroupName="MutualFundDividendSettlement" alias="1TRANS">
+    <N00 recordGroupName="DividendSettlement">
+      <N80 recordGroupName="Detail" recordBlockingFactor="1" />
+      <N81 recordGroupName="Trailer" recordBlockingFactor="1" />
+    </N00>
+  </MutualFundDividendSettlement>
+</MutualFundDividendSettlements>

@@ -1,0 +1,9 @@
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing\obj\Debug\netcoreapp2.2\win7-x64\FileProcessing.csprojAssemblyReference.cache
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing\obj\Debug\netcoreapp2.2\win7-x64\FileProcessing.Parsing.Parser.Errors.resources
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing\obj\Debug\netcoreapp2.2\win7-x64\FileProcessing.Parsing.Processor.Errors.resources
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing\obj\Debug\netcoreapp2.2\win7-x64\FileProcessing.StringMessages.resources
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing\obj\Debug\netcoreapp2.2\win7-x64\FileProcessing.csproj.GenerateResource.cache
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing\obj\Debug\netcoreapp2.2\win7-x64\FileProcessing.AssemblyInfoInputs.cache
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing\obj\Debug\netcoreapp2.2\win7-x64\FileProcessing.AssemblyInfo.cs
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing\obj\Debug\netcoreapp2.2\win7-x64\FileProcessing.RazorAssemblyInfo.cache
+C:\Users\timm\source\repos\FiveGuys\FileProcessingStandAlone\FileProcessing\obj\Debug\netcoreapp2.2\win7-x64\FileProcessing.RazorAssemblyInfo.cs

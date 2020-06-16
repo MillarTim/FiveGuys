@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MutualFundCommission" xml:space="preserve">
+    <value>^(?&lt;headerId&gt;.{6})(?&lt;applicationDate&gt;.{8})(.{2})(?&lt;productNumber&gt;.{3})(?&lt;productDescription&gt;.{20})(.{3})(.{1})(?&lt;multiCycleTransmissionCounter&gt;.{2})(?&lt;possDupeIndicator&gt;.{1})(?&lt;productId&gt;.{8})(?&lt;applicationMultiCycleCounter&gt;.{2})(?&lt;recipientId&gt;.{7})(?&lt;constant1&gt;.{1})(?&lt;recordCount&gt;.{9})(?&lt;senderId&gt;.{4})(?&lt;constant&gt;.{3})(.{1})(?&lt;dateTimeCreated&gt;.{16})(.{3})</value>
+  </data>
+  <data name="F30" xml:space="preserve">
+    <value>^(?&lt;systemCode&gt;.{1})(?&lt;recordType&gt;.{2})(.{2})(?&lt;receivingFirmNumber&gt;.{4})(?&lt;agentForReceivingFirm&gt;.{4})(?&lt;deliveringFirmFundNumber&gt;.{4})(?&lt;securityIssueCountryCode&gt;.{2})(?&lt;securityIssueId&gt;.{9})(?&lt;securityIssueCheckDigit&gt;.{1})(?&lt;fundFirmProcessingDate&gt;.{8})(?&lt;commissionType&gt;.{2})(?&lt;debitCreditIndicator&gt;.{1})(?&lt;debitReasonCode&gt;.{1})(?&lt;settlementIndicator&gt;.{1})(?&lt;recordDate&gt;.{8})(?&lt;securityIssueIdIndecator&gt;.{1})(.{35})(?&lt;rejectCode1&gt;.{2})(?&lt;rejectCode2&gt;.{2})(?&lt;rejectCode3&gt;.{2})(?&lt;rejectCode4&gt;.{2})(?&lt;rejectCode5&gt;.{2})(?&lt;rejectCode6&gt;.{2})(?&lt;rejectCode7&gt;.{2})</value>
+  </data>
+  <data name="F32" xml:space="preserve">
+    <value>^(?&lt;systemCode&gt;.{1})(?&lt;recordType&gt;.{2})(.{6})(?&lt;deliveringFirmFundNumber&gt;.{4})(?&lt;securityIssueCountryCode&gt;.{2})(?&lt;securityIssueId&gt;.{9})(?&lt;securityIssueCheckDigit&gt;.{1})(?&lt;totalRecords&gt;.{8})(?&lt;debitCreditIndicator&gt;.{1})(?&lt;dollarAmount&gt;.{16})(.{36})(?&lt;rejectCode1&gt;.{2})(?&lt;rejectCode2&gt;.{2})(?&lt;rejectCode3&gt;.{2})(?&lt;rejectCode4&gt;.{2})(?&lt;rejectCode5&gt;.{2})(?&lt;rejectCode6&gt;.{2})(?&lt;rejectCode7&gt;.{2})</value>
+  </data>
+  <data name="F33" xml:space="preserve">
+    <value>^(?&lt;systemCode&gt;.{1})(?&lt;recordType&gt;.{2})(.{2})(?&lt;receivingFirmFundNumber&gt;.{4})(?&lt;deliveringFirmFundNumber&gt;.{4})(?&lt;totalRecords&gt;.{9})(?&lt;totalDebitDollarAmount&gt;.{16})(?&lt;totalCreditDollarAmount&gt;.{16})(.{32})(?&lt;rejectCode1&gt;.{2})(?&lt;rejectCode2&gt;.{2})(?&lt;rejectCode3&gt;.{2})(?&lt;rejectCode4&gt;.{2})(?&lt;rejectCode5&gt;.{2})(?&lt;rejectCode6&gt;.{2})(?&lt;rejectCode7&gt;.{2})</value>
+  </data>
+  <data name="N00" xml:space="preserve">
+    <value>^(?&lt;systemCode&gt;.{1})(?&lt;recordType&gt;.{2})(?&lt;sequenceNumber&gt;.{1})(?&lt;mroRecipientNumber&gt;.{4})(?&lt;literal1&gt;.{11})(?&lt;transmissionDate&gt;.{8})(?&lt;autorouteFileId&gt;.{8})(?&lt;literal2&gt;.{10})(.{55})</value>
+  </data>
+  <data name="RecordType" xml:space="preserve">
+    <value>^(1TRANS)|^N00|^F3[023]|^F31[123]</value>
+  </data>
+  <data name="F311" xml:space="preserve">
+    <value>^(?&lt;systemCode1&gt;.{1})(?&lt;recordType1&gt;.{2})(?&lt;sequenceNumber1&gt;.{1})(?&lt;networkingControlIndicator&gt;.{1})(?&lt;commissionAmount&gt;.{16})(?&lt;customerAccountIndicator&gt;.{1})(?&lt;customerAccount&gt;.{20})(?&lt;ssnEinNumberIndicator&gt;.{1})(?&lt;ssnEinNumber&gt;.{9})(?&lt;branchIdNumber&gt;.{9})(?&lt;accountRepresentativeNumber&gt;.{9})(?&lt;wrapAccountIndicator&gt;.{1})(?&lt;nameIndicator&gt;.{1})(?&lt;name&gt;.{15})(?&lt;socialCode&gt;.{2})(.{11})</value>
+  </data>
+  <data name="F313" xml:space="preserve">
+    <value>^(?&lt;systemCode3&gt;.{1})(?&lt;recordType3&gt;.{2})(?&lt;sequenceNumber3&gt;.{1})(?&lt;planAccountNumber&gt;.{20})(?&lt;planAccountNumberIndicator&gt;.{1})(?&lt;customerAccountIndicator2&gt;.{1})(?&lt;customerAccount2&gt;.{20})(.{54})</value>
+  </data>
+  <data name="F312" xml:space="preserve">
+    <value>^(?&lt;systemCode2&gt;.{1})(?&lt;recordType2&gt;.{2})(?&lt;sequenceNumber2&gt;.{1})(?&lt;nameIndicator2&gt;.{1})(?&lt;name2&gt;.{15})(?&lt;commissionRate&gt;.{5})(?&lt;grossAmountOfTradeTotalSecurityAssets&gt;.{16})(?&lt;shareQuantityOfTrade&gt;.{13})(?&lt;pricePerShare&gt;.{12})(?&lt;currencyIndicator&gt;.{3})(?&lt;tradeDate&gt;.{8})(?&lt;transactionType&gt;.{1})(?&lt;assetseligibleForTrails&gt;.{16})(.{6})</value>
+  </data>
+</root>
