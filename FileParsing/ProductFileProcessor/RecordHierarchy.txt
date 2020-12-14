@@ -1,0 +1,2 @@
+H01¤0¤true¤false¤(?P<MsgTyp>.{3})(?P<MsgSeqNbr>.{6})(?P<FilDat>.{8})(?P<FilNam>.{8})
+D01¤1¤false¤true¤(?P<MsgTyp>.{3})(?P<MsgSeqnbr>.{6})(?P<MsgStsTyp>.{1})(?P<Cusip>.{9})(?P<ISIN>.{12})(?P<IssSta>.{3})(?P<IssCou>.{3})(?P<IssNam>.{60})(?P<DTCShtDsc>.{30})(?P<CorBasCsp>.{7})(?P<BasCspChk>.{1})(?P<SpnTaxWth>.{1})

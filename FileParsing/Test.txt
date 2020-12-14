@@ -1,0 +1,10 @@
+1XTRANS BLAH BLAH BLAH
+HHHeaderRecord
+01FirstDetail
+02SecondDetail
+02SecondDetail
+03ThirdDetail
+01FirstDetail
+02SecondDetail
+02SecondDetail
+FFTrailerRecord
